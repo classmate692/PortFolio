@@ -1,0 +1,28 @@
+
+.runtext {
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+  font-size:  clamp(16px, 4vw, 70px);;
+  text-align: start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 10vh;
+  white-space: nowrap; 
+  width: 600px;
+  margin-left: -20px;
+}
+@media only screen and (max-width: 600px) {
+  .runtext {
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    min-height: 10vh;
+    margin-left: -40px;
+  }
+  
+}
