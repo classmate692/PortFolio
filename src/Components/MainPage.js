@@ -365,7 +365,7 @@ export const MainPage = () => {
       </div>
       <div className="fourthcontainer">
         <div>
-          <p className="interest">Intrested In Hire Me?</p>
+          <p className="interest">Intrested In Hiring Me?</p>
         </div>
         <div>
           <a className="interestcontact" href="#lastcontainer">Contact Now</a>
